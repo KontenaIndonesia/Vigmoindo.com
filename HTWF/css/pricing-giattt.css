@@ -1,0 +1,145 @@
+.background-giattt {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.background-giattt::after {
+  content: '';
+  background: #60a9ff;
+  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background-giattt {
+    padding: 0 0 25px;
+  }
+}
+
+.container-giattt {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.panel-giattt {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.pricing-table-giattt {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13) !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table-giattt {
+    flex-direction: row;
+  }
+}
+
+.pricing-plan-giattt {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricing-plan-giattt:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricing-plan-giattt {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan-giattt:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img-giattt {
+  margin-bottom: 25px;
+  width: 90px;
+  height: auto;
+}
+
+.pricing-header-giattt {
+  color: #205d76;
+}
+
+.pricing-header-giattt h2, h3 {
+  font-weight: 100;
+}
+
+.pricing-features-giattt {
+  color: #205d76;
+  font-weight: 300;
+  margin: 50px auto 25px -18.5%;
+}
+
+.pricing-features-item-giattt {
+  border-top: 1px solid #e1f1ff;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.pricing-features-item-giattt li {
+  margin-left: 0px;
+}
+
+.pricing-features-item-giattt:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price-giattt {
+  color: #205d76;
+  display: block;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.pricing-button-giattt {
+  border: 1px solid #9dd1ff;
+  border-radius: 25px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button-giattt:hover,
+.pricing-button-giattt:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button-giattt.is-featured-giattt {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.pricing-button-giattt.is-featured-giattt:hover,
+.pricing-button-giattt.is-featured-giattt:active {
+  background-color: #269aff;
+}
