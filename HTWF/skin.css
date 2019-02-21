@@ -5711,6 +5711,7 @@
          grid-row-gap: 50px;
     }
 }
+
  #myInput {
      background-image: url('../images/search.png');
      background-position: 10px 12px;
@@ -5851,4 +5852,12 @@ img.varian-body-224 {
     width: 50%;
     text-align: center;
     margin-left: 25%;
+}
+
+@media screen and (max-width: 419px) {
+    .width-50-persen {
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
 }
